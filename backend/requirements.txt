@@ -5,3 +5,4 @@ django-filter
 python-dotenv
 requests
 beautifulsoup4
+django-cors-headers
