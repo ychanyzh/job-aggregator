@@ -12,6 +12,6 @@ class JobViewSet(viewsets.ModelViewSet):
         filters.SearchFilter,
         filters.OrderingFilter,
     ]
-    filterset_fields = ["city", "is_active", "source"]
-    search_fields = ["title", "description", "employer"]
+    filterset_fields = ["location", "is_active", "source"]
+    search_fields = ["title", "description", "company"]
     ordering_fields = ["date_published", "salary"]
